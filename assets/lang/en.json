@@ -1,0 +1,34 @@
+{
+  "header": {
+    "app": "multiple language with i18n",
+    "link": {
+      "page_1": "page 1",
+      "page_2": "page 2",
+      "page_3": "page 3"
+    },
+    "lang": "language"
+  },
+  "footer": {
+    "app": "footer"
+  },
+  "index": {
+    "title": "I18n Thai language test",
+    "body": "Sutipong Multayen",
+    "footer": "end page index"
+  },
+  "page_1": {
+    "title": "Nuxt.js multiple language with i18n",
+    "body": "page 1 i18n multiple language !!!",
+    "footer": "end page one"
+  },
+  "page_2": {
+    "title": "Nuxt.js multiple language with i18n",
+    "body": "page 2 i18n multiple language !!!!!",
+    "footer": "end page two"
+  },
+  "page_3": {
+    "title": "Nuxt.js multiple language with i18n",
+    "body": "page 3 i18n multiple language !!!!!!!",
+    "footer": "end page three"
+  }
+}
