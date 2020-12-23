@@ -21,7 +21,7 @@
             {{ header.link.page_3 }}
           </b-nav-item>
           <b-nav-item :to="localePath({ name: 'page4' })">
-            page 4
+            {{ header.link.page_4 }}
           </b-nav-item>
         </b-navbar-nav>
 

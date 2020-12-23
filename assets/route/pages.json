@@ -1,18 +1,22 @@
 {
   "page1": {
     "th": "/pageone",
-    "en": "/pageone"
+    "en": "/pageone",
+    "lo": "/pageone"
   },
   "page2": {
     "th": "/pagetwo",
-    "en": "/pagetwo"
+    "en": "/pagetwo",
+    "lo": "/pagetwo"
   },
   "page3": {
     "th": "/pagetree",
-    "en": "/pagetree"
+    "en": "/pagetree",
+    "lo": "/pagetree"
   },
   "page4": {
     "th": "/pagefo",
-    "en": "/pagefo"
+    "en": "/pagefo",
+    "lo": "/pagefo"
   }
 }

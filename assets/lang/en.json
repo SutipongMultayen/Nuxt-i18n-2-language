@@ -1,10 +1,11 @@
 {
   "header": {
-    "app": "multiple language with i18n",
+    "app": "Auto pair",
     "link": {
       "page_1": "page 1",
       "page_2": "page 2",
-      "page_3": "page 3"
+      "page_3": "page 3",
+      "page_4": "page 4"
     },
     "lang": "language"
   },
@@ -12,23 +13,28 @@
     "app": "footer"
   },
   "index": {
-    "title": "I18n Thai language test",
-    "body": "Sutipong Multayen",
+    "title": "Lading",
+    "body": "car",
     "footer": "end page index"
   },
   "page_1": {
-    "title": "Nuxt.js multiple language with i18n",
-    "body": "page 1 i18n multiple language !!!",
+    "title": "Hello!",
+    "body": "Take care of your health as well.",
     "footer": "end page one"
   },
   "page_2": {
-    "title": "Nuxt.js multiple language with i18n",
-    "body": "page 2 i18n multiple language !!!!!",
+    "title": "COVID-19",
+    "body": "COVID-19 affects people in different ways. Most people who are infected will have mild to moderate symptoms. And recover from the disease by itself without hospitalization",
     "footer": "end page two"
   },
   "page_3": {
-    "title": "Nuxt.js multiple language with i18n",
-    "body": "page 3 i18n multiple language !!!!!!!",
+    "title": "Common symptoms are as follows",
+    "body": "Fever, dry cough, weakness",
     "footer": "end page three"
+  },
+  "page_4": {
+    "title": "food",
+    "body": "Breakfast",
+    "footer": "End of page four"
   }
 }

@@ -2,7 +2,7 @@
   <b-container>
     <Page :title="text.title" :body="text.body" :footer="text.footer" />
     <!-- {{ text }} -->
-    {{ chckDate() }}
+    <h1 class="mb-5">{{ chckDate() }}</h1>
     <!-- $t = Return TranslateResult -->
     <!-- $d = DateTime localization  -->
     <!-- {{ $d(new Date()) }} -->
@@ -24,12 +24,13 @@ export default {
   },
   methods: {
     chckDate() {
-      let DateA = this.$i18n.locales.find((i) => i.code == this.$i18n.locale)
-      if (DateA.code == 'th') {
+      // this.$i18n.locales จะเป็น get locales ที่เรามีทั้งหมดมา จาก nuxt.config.js
+      let DateLocale = this.$i18n.locales.find((i) => i.code == this.$i18n.locale)
+      if (DateLocale.code == 'th') {
            return moment(new Date()).locale('th').format('LL')
-      } else if (DateA.code == 'la') {
+      } else if (DateLocale.code == 'lo') {
         return moment(new Date()).locale('lo').format('LL')
-      } else if (DateA.code == 'en') {
+      } else if (DateLocale.code == 'en') {
         return moment(new Date()).locale('en').format('LL')
       }
     },

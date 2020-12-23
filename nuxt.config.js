@@ -50,8 +50,8 @@ export default {
         name: 'ไทย',
       },
       {
-        code: 'la',
-        iso: 'la-LA',
+        code: 'lo',
+        iso: 'lo-LO',
         name: 'ລາວ',
       },
     ],
@@ -62,7 +62,8 @@ export default {
         th: require('./assets/lang/th.json'),
         // eslint-disable-next-line global-require
         en: require('./assets/lang/en.json'),
-        la: require('./assets/lang/la.json'),
+        // eslint-disable-next-line global-require
+        lo: require('./assets/lang/lo.json'),
       },
     },
   },

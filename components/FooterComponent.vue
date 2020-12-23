@@ -1,15 +1,13 @@
 <template>
   <div>
-    <footer>
+    <footer class="mt-5">
       <b-container>
         <b-row>
           <b-col
             cols="12"
-            class="text-center"
+            class="text-center border border-success"
           >
             {{ footer.app }}
-            <br>
-            {{footer}}
           </b-col>
         </b-row>
       </b-container>

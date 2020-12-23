@@ -1,5 +1,21 @@
 <template>
-  <div>
-    Page4
-  </div>
+  <b-container>
+    <Page :title="text.title" :body="text.body" :footer="text.footer"/>
+    {{text}}
+  </b-container>
 </template>
+
+<script>
+import Page from '@/components/PageComponent'
+
+export default {
+  components: {
+    Page
+  },
+  computed: {
+    text () {
+      return this.$t('page_4')
+    }
+  }
+}
+</script>
